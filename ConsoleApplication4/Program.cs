@@ -79,7 +79,7 @@ namespace FilmRentalRevised
 
 
 
-            Console.WriteLine("Enter the customers name.");
+            Console.WriteLine("Enter the customer's name.");
             string key = Console.ReadLine();   //asigning the input to the key
 
 
@@ -98,7 +98,7 @@ namespace FilmRentalRevised
 
         static Dictionary<string, DateTime> returns(Dictionary<string, DateTime> filmRental)  //add entries method 
         {
-            Console.WriteLine("enter the customers name to return the movie");
+            Console.WriteLine("Enter the customer's name to return the movie");
 
             string returnedMovie = Console.ReadLine();
             if (filmRental.ContainsKey(returnedMovie))
